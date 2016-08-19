@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<title>proj4</title>
+		<link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css' >
+	</head>
+	<body>
+		<form name = 'form' method='POST'>
+		<!-- post use to get the value and does not show to the user in url, get does the same but it show the user-->
+		<table class = "table table hover table striped">
+			<thead id = 'head'>
+				<tr>				
+					<th> LABAEL</th>
+					<th> FORM ELEMENTS</th>
+				</tr>
+			</thead>
+				
+			<tbody>
+				<tr id = 'row1'>
+				    <td>USERNAME </td>		
+					<td> 
+					   <input type='text'
+                              name='Uname'
+						      id='Uname' 
+                              placeholder='Enter Username' value='sample'>
+					</td>
+				</tr>
+				<tr id = 'row2' >		
+					<td>PASSWARD </td>
+						<td> 
+                            <input type='password'
+                                   name= 'passward'
+								    id= 'passward' placeholder= 'Enter passwaod'>	
+						</td>
+				</tr>
+				
+					<tr id = 'row3' >		
+                        <td>GENDER</td>
+						<td> 
+						  <input type='radio'
+								name= 'GENDER'
+								value= 'Male'> Male	
+				                <br>
+						  <input type='radio'
+								name= 'GENDER'
+								value= 'Female'> Female
+								<br>
+						</td>
+					</tr>
+			
+				
+					<tr id = 'row4' >		
+                        <td>CAR(s)</td>
+						<td> 
+						<input type='checkbox'
+								name= 'TOYOTA' 
+								value='1'> TOYOTA
+						<br>
+						<input type='checkbox'
+								name= 'HONDA'
+								vlaue= '2'> HONDA
+								<br>
+						<input type='checkbox'
+								name= 'BMW'
+								value= '3'> BMW
+								<br>
+								
+						</td>
+				    </tr >
+				
+					<tr id='row5'>
+						<td>Country</td>
+						<td>
+							<select name='conutry'>
+								<option value = ""> select a country </option>
+								<option>Nepal</option> 
+								<option> Saudi </option>
+								<option> America</option>
+	
+							</select>
+						</td>
+					</tr>
+			</tbody>
+		</table>
+		<input type = 'submit' value= ' submit'>
+		</form>	
+		
+	</body>
+</html>

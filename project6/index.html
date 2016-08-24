@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>project6</title>
+         <meta charset="utf-8">
+      
+        <link rel='stylesheet' href='/Users/basemmansor/Documents/UI/class1/project6/node_modules/bootstrap/dist/css/bootstrap.css'>
+    </head> 
+    <body>
+        
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+           <form name = "using gride" method = "post">
+                <div class="container-fluid">
+                    <div class = "row">
+                        <div class = "col-sm-2">First Name</div>
+                            <div class = "col-md-1"> 
+                        <input 
+                               type=text
+                               name= Fname
+                               placeholder= "First name">
+                            </div>
+                        </div>
+                    
+                    <div class="row">
+                        <div class= "col-sm-2">Last Name</div>
+                        <div class="col-md-1">
+                        <input
+                               type= text
+                               name= Lname
+                               placeholder= "last name">
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "column3">Gender
+                        <input type = "radio" name = "Gender">male
+                        <input type="radio" name = "Gender">Female    
+                        </div>
+                    </div>
+                    
+                     <div class = "row">
+                         <div class = "column4"> Country    
+                        <select name = "countries"> 
+                            <option values = " "> Select Countries</option>
+                            <option values = "1"> America </option> 
+                            <option values = "2"> Saudi Arabic </option>  
+                            <option values = "3"> Nipal </option>
+                            <option values = "4"> India </option> 
+                            <option values = "5"> France </option>
+                            <option values = "6"> Germay </option> 
+                            <option values = "7"> Mexico </option> 
+                            <option values = "8"> China </option> 
+                            <option values = "9"> Russa </option> 
+                            <option values = "10"> Canda </option> 
+                        </select>
+                    <div class = "row">
+                        <div  class="column5"> Class taken
+                            <input type = "checkbox" class = "chechbox" value="1">Java
+                            <input type = "checkbox" class = "chechbox" value="1">C++
+                            <input type = "checkbox" class = "chechbox" value="1">UI
+                            <input type = "checkbox" class = "chechbox" value="1">VM ware
+                        </div>         
+                    </div>
+                </div>
+            </div>
+            <div class ='submit'>
+                 <input
+                    type= submit
+                        value = subimt>
+                    </div>
+         </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      <script type='text/javascript' src      ='/Users/basemmansor/Documents/UI/class1/project6/node_modules/jquery/dist/jquery.js'></script>
+<script type='text/javascript' src='/Users/basemmansor/Documents/UI/class1/project6/node_modules/bootstrap/dist/js/bootstrap.js'>
+               </script>
+               
+    </body>
+</html>
